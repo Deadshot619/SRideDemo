@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SRideDemo</string>
+
+    <string name="text_news_feed">News Feed</string>
+</resources>
