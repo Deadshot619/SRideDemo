@@ -60,7 +60,6 @@ class FeedFragment : BaseFragment<FeedViewModel, FragmentFeedBinding>() {
                     }
                     is State.Success -> {
                         mAdapter.submitList(it.data.articles)
-                        showToast(it.data.articles.size.toString())
                         showProgressBar(false)
                     }
                     is State.Failed -> {
